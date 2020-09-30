@@ -1,0 +1,16 @@
+<div class="p-3">
+  <h1>Current player {{ Player }}</h1>
+  <button (click)="newGame()"  class="btn btn-primary mb-2">New game</button>
+
+  <h2 *ngIf="winner && winner !== 'tie'" class="text-info">Player {{ winner }} Won the game !!</h2>
+  <h2 *ngIf="winner && winner === 'tie'" class="text-danger">GameOver!!!</h2>
+
+  <main>
+    <app-square
+      *ngFor="let x of squares; let i = index"
+      [value]="x"
+      (click)="makeMove(i)"
+    >
+    </app-square>
+  </main>
+</div>
