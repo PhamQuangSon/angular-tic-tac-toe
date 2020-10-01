@@ -1,4 +1,5 @@
 # AngularTicTacToe
+![alt text](https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/120552823_662361471082016_985656649784517961_n.png?_nc_cat=109&_nc_sid=ae9488&_nc_ohc=QQB4XxelQuAAX8JMM22&_nc_ht=scontent.fdad2-1.fna&oh=c0d403ea807c63cbc37a153891451f28&oe=5F9AE69D)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.0.
 
